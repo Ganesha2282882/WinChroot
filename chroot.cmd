@@ -1,5 +1,7 @@
 @echo off
 subst Y: %1
+title
 Y:
-path Y:\Windows;Y:\Windows\System32;Y:\
 prompt chroot$g
+%2
+cmd
